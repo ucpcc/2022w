@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body class="{{ page.id }}">
+
+    {%- include header.html -%}
+
+    <div class="contents">
+      <div class="main_caption">
+        <h1 style="margin-bottom: 0;">Good Bye, BOJ 2022! / Hello, BOJ 2023!</h1>
+        전국 대학생 프로그래밍 대회 동아리 연합 &middot; 2022/2023 겨울 대회
+      </div>
+    </div>
+    <div style="height: 2rem;"></div>
+    <div class="contents">
+      <div class="main_caption">
+        <div class="main_notice">
+          <b>온사이트 대회 1월 15일</b>
+        </div>
+        <a href="https://map.naver.com/v5/entry/place/1763527197?placePath=%2Fhome&c=14140822.8653826,4508397.7630627,15,0,0,0,dh">
+          삼성전자 서울대 공동연구소
+        </a> &middot; 낙성대역 2호선에서 관악02 버스 탑승
+      </div>
+    </div>
+    <div style="height: 4rem;"></div>
+    <div class="cover_image">
+      <img id="main-pic-blurry" alt="UCPC 2019">
+      <img id="main-pic" alt="UCPC 2019">
+    </div>
+    <script type="text/javascript">
+      function lpad(num, pad_str, len) {
+        var str = num.toString();
+        while (str.length < len) {
+          str = pad_str + str;
+        }
+        return str;
+      }
+      window.onload = function () {
+        var picture_num = Math.floor(Math.random() * 13);
+        var picture_name = 'main-pic-' + lpad(picture_num, '0', 2) + '.jpg';
+        var path = '{{ "/assets/" | relative_url }}' + picture_name;
+        document.getElementById('main-pic').src = path;
+        document.getElementById('main-pic-blurry').src = path;
+      };
+    </script>
+
+    <div style="height: 4rem;"></div>
+
+    <div class="contents">
+      <div class="main_description">
+        <h2>
+          Good Bye, BOJ 2022!와 Hello, BOJ 2023!이 열립니다!
+        </h2>
+      </div>
+    </div>
+
+    <div style="height: 2rem;"></div>
+
+    <div class="hr"></div>
+
+    <main class="contents index" style="text-align: center;" aria-label="Content">
+      {{ content }}
+    </main>
+
+    <div style="height: 2rem;"></div>
+
+    <div class="hr"></div>
+
+    <div style="height: 2rem;"></div>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>
