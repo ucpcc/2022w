@@ -5,6 +5,7 @@ title: 2022/2023 겨울대회
 
 ## 주요 공지
 
+- (12/22) Hello, BOJ 2023! 상품을 공지하였습니다. 상황에 따라 변동될 수 있습니다.
 - (12/22) 참가 신청 승인 결과를 [링크](https://docs.google.com/spreadsheets/d/1sr-Y_ABoqTEObzBwQ6XGkp9CFPCMYafrk4xnTBK6LqQ/)에서 확인하실 수 있습니다.
 - (12/22) Good Bye, BOJ 2022!의 참가 신청을 받기 시작합니다. 참가 신청은 12월 27일까지 가능합니다. [참가 신청 링크](https://forms.gle/qCp7PAufAKbRMnBA8)
 - (12/21) 전대프연이 알고리즘 문제해결 커뮤니티와 함께 2022/2023 겨울대회를 개최합니다!
