@@ -5,7 +5,10 @@ title: 2022/2023 겨울대회
 
 ## 주요 공지
 
-- (12/29) Good Bye, BOJ 2022! 계정을 발송했습니다. 12월 30일 12시 ~ 12월 31일 0시에 진행되는 예비소집에 참가하여 제출이 잘 되는지 확인해보는 것을 권장합니다.
+- (12/30) Good Bye, BOJ 2022! 예비소집이 진행됩니다.
+- (12/29) Good Bye, BOJ 2022! 계정 정보를 발송했습니다. 12월 30일 12시 ~ 12월 31일 0시에 진행되는 예비소집에 참가하여 제출이 잘 되는지 확인해보는 것을 권장합니다.
+  - 계정 정보를 수신 하지 못한 분은 스팸메일함 등을 확인하는 것을 권장합니다.
+  - 만약 스팸메일함에도 없는 경우, <a href="#" class="mail-address" data-name="contact" data-domain="ucpc" data-tld="me" onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld"></a> 로 문의 부탁드립니다.
 - (12/28) Good Bye, BOJ 2022! 참가 신청이 마감되었습니다. 총 599명의 참가 신청이 승인되었습니다.
 - (12/22) Hello, BOJ 2023! 상품을 공지하였습니다. 상황에 따라 변동될 수 있습니다.
 - (12/22) 참가 신청 승인 결과를 [링크](https://docs.google.com/spreadsheets/d/1sr-Y_ABoqTEObzBwQ6XGkp9CFPCMYafrk4xnTBK6LqQ/)에서 확인하실 수 있습니다.
